@@ -1,0 +1,21 @@
+# ninja log v6
+1	10	1739180858176795747	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	a8a52633094245f6
+1	10	1739180858176795747	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-mkdir	a8a52633094245f6
+10	1503	1739180859669871389	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	fd8af90589f837dc
+10	1503	1739180859669871389	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-download	fd8af90589f837dc
+1503	1530	1739180859670329594	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	d2a80bc6fd11e9ba
+1503	1530	1739180859670329594	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-update	d2a80bc6fd11e9ba
+1530	1541	1739180859707842275	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	9d731087090b334e
+1530	1541	1739180859707842275	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-patch	9d731087090b334e
+1541	1550	1739180859716839833	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	1901a15c0dbb89e0
+1541	1550	1739180859716839833	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-configure	1901a15c0dbb89e0
+1550	1559	1739180859725891557	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	7e970cadc4daebfa
+1550	1559	1739180859725891557	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-build	7e970cadc4daebfa
+1559	1569	1739180859735433862	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	c50fbf513458a698
+1559	1569	1739180859735433862	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-install	c50fbf513458a698
+1569	1578	1739180859744537919	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	dd75ec246f5c2ea7
+1569	1578	1739180859744537919	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-test	dd75ec246f5c2ea7
+1578	1593	1739180859759183936	CMakeFiles/vorbis-populate-complete	f157454470af5f55
+1578	1593	1739180859759183936	vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	f157454470af5f55
+1578	1593	1739180859759183936	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/vorbis-subbuild/CMakeFiles/vorbis-populate-complete	f157454470af5f55
+1578	1593	1739180859759183936	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/vorbis-subbuild/vorbis-populate-prefix/src/vorbis-populate-stamp/vorbis-populate-done	f157454470af5f55

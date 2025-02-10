@@ -1,0 +1,21 @@
+# ninja log v6
+0	11	1739180842595914890	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir	9e331c03edb129bc
+0	11	1739180842595914890	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-mkdir	9e331c03edb129bc
+0	6656	1739180852362774670	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download	6ddac2c243797850
+0	6656	1739180852362774670	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-download	6ddac2c243797850
+6656	6683	1739180852363298000	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	862ea3b5f0b57ca7
+6656	6683	1739180852363298000	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-update	862ea3b5f0b57ca7
+6683	6693	1739180852399983603	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	b7ccc0f99cbd9c6
+6683	6693	1739180852399983603	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-patch	b7ccc0f99cbd9c6
+6693	6703	1739180852409341783	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	7cfc0fbe87e780ec
+6693	6703	1739180852409341783	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-configure	7cfc0fbe87e780ec
+6703	6712	1739180852418612965	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	75beefc162e1f792
+6703	6712	1739180852418612965	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-build	75beefc162e1f792
+6712	6721	1739180852427580732	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	c0554007f4055949
+6712	6721	1739180852427580732	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-install	c0554007f4055949
+6721	6730	1739180852437030703	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	f132e5bf0a881a05
+6721	6730	1739180852437030703	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-test	f132e5bf0a881a05
+6730	6743	1739180852450007732	CMakeFiles/freetype-populate-complete	6bf400be91e50b60
+6730	6743	1739180852450007732	freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	6bf400be91e50b60
+6730	6743	1739180852450007732	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/freetype-subbuild/CMakeFiles/freetype-populate-complete	6bf400be91e50b60
+6730	6743	1739180852450007732	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/freetype-subbuild/freetype-populate-prefix/src/freetype-populate-stamp/freetype-populate-done	6bf400be91e50b60

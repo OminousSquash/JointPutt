@@ -1,0 +1,21 @@
+# ninja log v6
+1	13	1739180852706358541	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir	82d333dbf776c929
+1	13	1739180852706358541	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-mkdir	82d333dbf776c929
+13	596	1739180853289336970	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	fdd2d0b27d59b834
+13	596	1739180853289336970	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-download	fdd2d0b27d59b834
+596	622	1739180853289802175	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	30cc1df7823eb07b
+596	622	1739180853289802175	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-update	30cc1df7823eb07b
+622	632	1739180853325502077	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	65f17c6337dd8690
+622	632	1739180853325502077	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-patch	65f17c6337dd8690
+632	641	1739180853334763591	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	378738d24c9470c1
+632	641	1739180853334763591	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-configure	378738d24c9470c1
+641	650	1739180853343676025	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	be46de047d288d14
+641	650	1739180853343676025	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-build	be46de047d288d14
+650	659	1739180853352474418	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	235bdb552c8cc210
+650	659	1739180853352474418	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-install	235bdb552c8cc210
+659	668	1739180853361485935	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	b7b848aae4e2d61
+659	668	1739180853361485935	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-test	b7b848aae4e2d61
+668	681	1739180853374675254	CMakeFiles/ogg-populate-complete	b5af4614d027d897
+668	681	1739180853374675254	ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	b5af4614d027d897
+668	681	1739180853374675254	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/ogg-subbuild/CMakeFiles/ogg-populate-complete	b5af4614d027d897
+668	681	1739180853374675254	/Users/varunsrinivasan/Documents/Projects/gameDev/JointPutt/cmake-build-debug/_deps/ogg-subbuild/ogg-populate-prefix/src/ogg-populate-stamp/ogg-populate-done	b5af4614d027d897
