@@ -10,11 +10,14 @@
 
 class Game {
 public:
-    Ball& ball;
-public:
-    Game(Ball& ball) : ball(ball){}
+    Ball& b1;
+    Ball& b2;
 
-    void handleBallWallCollision();
+public:
+    Game(Ball& b1, Ball& b2) : b1(b1), b2(b2){}
+
+    void handleBallWallCollision(Ball& ball);
+    void handleBallsWallCollision();
 
 };
 

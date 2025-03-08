@@ -8,9 +8,7 @@ public:
     float xVel;
     float yVel;
 public:
-//    Ball(int x, int y) : x(x), y(y), xVel(0), yVel(0){}
-//
-//    Ball(int x, int y, int xVel, int yVel) : x(x), y(y), xVel(xVel), yVel(yVel){}
+    Ball(float x, float y) : x(x), y(y), xVel(0), yVel(0){}
 
     Ball() : x(120), y(200), xVel(0), yVel(0) {}
 };

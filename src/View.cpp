@@ -6,8 +6,7 @@
 #include "headers/constants.h"
 #include <iostream>
 
-void View::drawBall() {
-    Ball& b = game.ball;
+void View::drawBall(Ball& b) {
     b.xVel = CONSTANTS::FRICTION * b.xVel;
     b.yVel = CONSTANTS::FRICTION * b.yVel;
     if (abs(b.xVel) < 0.01) {
@@ -24,9 +23,13 @@ void View::drawBall() {
     window.draw(circle);
 }
 
+void View::drawBalls() {
+    drawBall(game.b1);
+    drawBall(game.b2);
+}
 
 void View::updateScreen() {
     window.clear(sf::Color::Black);
-    drawBall();
+    View::drawBalls();
     window.display();
 }

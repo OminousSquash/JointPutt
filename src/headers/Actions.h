@@ -12,11 +12,12 @@
 
 class Actions {
 public:
-    bool ballHeld = false;
+    bool ball1Held= false;
+    bool ball2Held = false;
 public:
-    void DragBall(const std::optional<sf::Event>& event, Ball& ball, sf::Vector2f& mousePos);
+    void DragBall(const std::optional<sf::Event>& event, Ball& b1, Ball& b2, sf::Vector2f& mousePos);
 
-    void ReleaseBall(const std::optional<sf::Event>& event, Ball& ball, sf::Vector2f& mousePos);
+    void ReleaseBall(const std::optional<sf::Event>& event, Ball& b1, Ball& b2, sf::Vector2f& mousePos);
 };
 
 #endif //CMAKESFMLPROJECT_ACTIONS_H

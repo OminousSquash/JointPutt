@@ -16,7 +16,8 @@ public:
     View(sf::RenderWindow& window, Game& game) : window(window), game(game){}
 
     void updateScreen();
-    void drawBall();
+    void drawBall(Ball& ball);
+    void drawBalls();
 };
 
 #endif //CMAKESFMLPROJECT_VIEW_H

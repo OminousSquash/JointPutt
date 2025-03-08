@@ -8,8 +8,9 @@ int main()
 {
     auto window = sf::RenderWindow(sf::VideoMode({CONSTANTS::WINDOW_WIDTH, CONSTANTS::WINDOW_HEIGHT}), "CMake SFML Project");
     window.setFramerateLimit(144);
-    Ball b;
-    Game g(b);
+    Ball b1(100, 500);
+    Ball b2(400, 500);
+    Game g(b1, b2);
     View v(window, g);
     Actions a;
     while (window.isOpen())
@@ -22,10 +23,10 @@ int main()
             }
             sf::Vector2i pixelPos = sf::Mouse::getPosition(window);
             sf::Vector2f worldPos = window.mapPixelToCoords(pixelPos);
-            a.DragBall(event, g.ball, worldPos);
-            a.ReleaseBall(event, g.ball, worldPos);
+            a.DragBall(event, g.b1, g.b2, worldPos);
+            a.ReleaseBall(event, g.b1, g.b2, worldPos);
         }
-        g.handleBallWallCollision();
+        g.handleBallsWallCollision();
         v.updateScreen();
     }
 }

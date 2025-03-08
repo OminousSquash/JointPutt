@@ -4,8 +4,7 @@
 
 #include "headers/Game.h"
 
-void Game::handleBallWallCollision() {
-
+void Game::handleBallWallCollision(Ball& ball) {
     float leftX  = ball.x;
     float rightX = ball.x + 2 * CONSTANTS::BALL_RADIUS;
     float topY = ball.y;
@@ -21,4 +20,9 @@ void Game::handleBallWallCollision() {
         ball.yVel = -1 * ball.yVel;
     }
     // check top/bottom wall collision
+}
+
+void Game::handleBallsWallCollision() {
+    handleBallWallCollision(b1);
+    handleBallWallCollision(b2);
 }
