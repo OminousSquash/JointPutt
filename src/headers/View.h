@@ -19,6 +19,7 @@ public:
     void drawBall(Ball& ball);
     void drawBalls();
     void drawBarrier();
+    void drawHoles();
 };
 
 #endif //CMAKESFMLPROJECT_VIEW_H

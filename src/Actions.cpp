@@ -23,11 +23,11 @@ void Actions::DragBall(const std::optional<sf::Event> &event, Ball &b1, Ball& b2
 
             float mx = 1.0 * mouseButtonPressed->position.x;
             float my = 1.0 * mouseButtonPressed -> position.y;
-            if (cirlceIntersect(cx1, cy1, mx, my)) {
+            if (!b1.deactivated && cirlceIntersect(cx1, cy1, mx, my)) {
                 this->ball1Held= true;
                 return;
             }
-            if (cirlceIntersect(cx2, cy2, mx, my)) {
+            if (!b2.deactivated && cirlceIntersect(cx2, cy2, mx, my)) {
                 this -> ball2Held = true;
                 return;
             }
@@ -44,13 +44,11 @@ void Actions::OnRelease(Ball& b1, Ball& b2, float mouseX, float mouseY) {
     float cx = b1.x + CONSTANTS::BALL_RADIUS;
     float cy = b1.y + CONSTANTS::BALL_RADIUS;
     b1.xVel = cx - mouseX;
-    std::cout << "xVel(without correction): " << b1.xVel << std::endl;
     b1.xVel = b1.xVel > CONSTANTS::MAX_X_VELOCITY ? CONSTANTS::MAX_X_VELOCITY : b1.xVel;
     b1.xVel = b1.xVel < CONSTANTS::MIN_X_VELOCITY ? CONSTANTS::MIN_X_VELOCITY: b1.xVel;
 
 
     b1.yVel = cy - mouseY;
-    std::cout << "yVel(without correction): " << b1.yVel << std::endl;
     b1.yVel = b1.yVel > CONSTANTS::MAX_Y_VELOCITY ? CONSTANTS::MAX_Y_VELOCITY : b1.yVel;
     b1.yVel = b1.yVel < CONSTANTS::MIN_Y_VELOCITY ? CONSTANTS::MIN_Y_VELOCITY : b1.yVel;
     setVelocities(b2, b1.xVel, b1.yVel);

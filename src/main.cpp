@@ -10,7 +10,9 @@ int main()
     window.setFramerateLimit(144);
     Ball b1(200, 500);
     Ball b2(700, 500);
-    Game g(b1, b2);
+    Hole h1(200, 100);
+    Hole h2(700, 100);
+    Game g(b1, b2, h1, h2);
     View v(window, g);
     Actions a;
     while (window.isOpen())
@@ -27,6 +29,7 @@ int main()
             a.ReleaseBall(event, g.b1, g.b2, worldPos);
         }
         g.handleBallsWallCollision();
+        g.handleBallsHoleCollision();
         v.updateScreen();
     }
 }
