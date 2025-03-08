@@ -18,6 +18,8 @@ public:
     void DragBall(const std::optional<sf::Event>& event, Ball& b1, Ball& b2, sf::Vector2f& mousePos);
 
     void ReleaseBall(const std::optional<sf::Event>& event, Ball& b1, Ball& b2, sf::Vector2f& mousePos);
+
+    void OnRelease(Ball& b1, Ball& b2, float mouseX, float mouseY);
 };
 
 #endif //CMAKESFMLPROJECT_ACTIONS_H
