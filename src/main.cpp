@@ -8,8 +8,8 @@ int main()
 {
     auto window = sf::RenderWindow(sf::VideoMode({CONSTANTS::WINDOW_WIDTH, CONSTANTS::WINDOW_HEIGHT}), "CMake SFML Project");
     window.setFramerateLimit(144);
-    Ball b1(100, 500);
-    Ball b2(400, 500);
+    Ball b1(200, 500);
+    Ball b2(700, 500);
     Game g(b1, b2);
     View v(window, g);
     Actions a;

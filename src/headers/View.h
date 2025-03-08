@@ -18,6 +18,7 @@ public:
     void updateScreen();
     void drawBall(Ball& ball);
     void drawBalls();
+    void drawBarrier();
 };
 
 #endif //CMAKESFMLPROJECT_VIEW_H

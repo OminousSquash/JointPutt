@@ -16,7 +16,7 @@ public:
 public:
     Game(Ball& b1, Ball& b2) : b1(b1), b2(b2){}
 
-    void handleBallWallCollision(Ball& ball);
+    void handleBallWallCollision(Ball& ball, float maxLeft, float maxRight);
     void handleBallsWallCollision();
 
 };

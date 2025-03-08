@@ -23,6 +23,15 @@ void View::drawBall(Ball& b) {
     window.draw(circle);
 }
 
+void View::drawBarrier() {
+    float x = CONSTANTS::BARRIER_X;
+    float y = CONSTANTS::BARRIER_Y;
+    sf::RectangleShape barrier(sf::Vector2f (CONSTANTS::BARRIER_WIDTH, CONSTANTS::BARRIER_HEIGHT));
+    barrier.setPosition(sf::Vector2f (x, y));
+    barrier.setFillColor(sf::Color::Blue);
+    window.draw(barrier);
+}
+
 void View::drawBalls() {
     drawBall(game.b1);
     drawBall(game.b2);
@@ -31,5 +40,6 @@ void View::drawBalls() {
 void View::updateScreen() {
     window.clear(sf::Color::Black);
     View::drawBalls();
+    View::drawBarrier();
     window.display();
 }
