@@ -13,6 +13,18 @@ FetchContent_Declare(SFML
 FetchContent_MakeAvailable(SFML)
 
 add_executable(main src/main.cpp
-        src/main.cpp)
+        src/main.cpp
+        src/headers/Ball.h
+        src/headers/Block.h
+        src/headers/constants.h
+        src/headers/Hole.h
+        src/headers/View.h
+        src/Ball.cpp
+        src/View.cpp
+        src/headers/Game.h
+        src/Game.cpp
+        src/headers/Actions.h
+        src/Actions.cpp
+)
 target_compile_features(main PRIVATE cxx_std_17)
 target_link_libraries(main PRIVATE SFML::Graphics)
