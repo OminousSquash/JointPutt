@@ -16,7 +16,6 @@ void View::drawBall() {
     if (abs(b.xVel) < 0.01) {
         b.yVel = 0;
     }
-    std::cout << b.x << " " << b.y << std::endl;
     b.x += b.xVel;
     b.y += b.yVel;
     sf::CircleShape circle(CONSTANTS::BALL_RADIUS);
